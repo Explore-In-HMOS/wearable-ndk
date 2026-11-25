@@ -2,7 +2,7 @@
 
 # Flexballs Simulation (NDK & OpenGL)
 
-Interactive flexballs visual built with OpenGL ES 3.0 on HarmonyOS NEXT. Tap the screen to spawn jelly-like blobs that move and bounce. Rendering, physics tick, and touch handling run natively; ArkTS provides the UI shell and bridges to C++ via NAPI.
+Interactive flexballs visual built with OpenGL ES 3.0 on HarmonyOS. Tap the screen to spawn jelly-like blobs that move and bounce. Rendering, physics tick, and touch handling run natively; ArkTS provides the UI shell and bridges to C++ via NAPI.
 
 * **Native OpenGL Rendering**: Full-screen quad + GLSL 300 es fragment combining up to 100 flexballs
 * **VSync Synchronization**: Frame-chained loop via `OH_NativeVSync_RequestFrame`
@@ -23,12 +23,12 @@ Interactive flexballs visual built with OpenGL ES 3.0 on HarmonyOS NEXT. Tap the
 
 * **Watchfaces / Visual FX**: Reactive background animation for wearable UIs
 * **Graphics Education**: Clear example of ArkTS ↔ NAPI ↔ EGL ↔ OpenGL pipeline
-* **Performance Demos**: Showcases native touch + render performance on HarmonyOS NEXT
+* **Performance Demos**: Showcases native touch + render performance on HarmonyOS
 
 # Tech Stack
 
 * **Languages**: ArkTS, C++
-* **Frameworks**: HarmonyOS NEXT (API 19+), OpenGL ES 3.0, EGL
+* **Frameworks**: HarmonyOS (API 19+), OpenGL ES 3.0, EGL
 * **Tools**: DevEco Studio 5.1.x
 * **Libraries / APIs**:
 
